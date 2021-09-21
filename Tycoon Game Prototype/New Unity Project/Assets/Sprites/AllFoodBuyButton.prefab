@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1614153486257990}
+  m_IsPrefabAsset: 1
+--- !u!1 &1614153486257990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4954293232217326}
+  - component: {fileID: 114081256904792258}
+  - component: {fileID: 114261574937823828}
+  m_Layer: 0
+  m_Name: AllFoodBuyButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1946951347501912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4099710815262970}
+  m_Layer: 0
+  m_Name: CuisineSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4099710815262970
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946951347501912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -96, y: -120.890976, z: -6.1374326}
+  m_LocalScale: {x: 1.8123894, y: 1.8123894, z: 1.8123894}
+  m_Children: []
+  m_Father: {fileID: 4954293232217326}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4954293232217326
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614153486257990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -408.43265, y: -168.0764, z: 0.07070959}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4099710815262970}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114081256904792258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614153486257990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f758d455ddff4c142bec1f9363db2799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114261574937823828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614153486257990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb61103fb9cb59479ad589496ca41e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uang: 0
+  Stock: 0000000000000000000000000000000000000000000000000000000000000000
+  RicePrice: 0
+  EggPrice: 0
+  FishPrice: 0
+  hargaTotal: 0
+  amount: 0
+  FoodBox:
+  - {fileID: 1225888831452534, guid: 27ef9ad0656d423489929427b19368cf, type: 2}
+  - {fileID: 1623668210690710, guid: a5df50a876060e64d97f94e3c5f98602, type: 2}
+  - {fileID: 1315654586334800, guid: ccb0ecf9c0b4d4048b66ca0cd8ec28b5, type: 2}
+  score: 0
+  SpawnSpot: {fileID: 4099710815262970}
+  Cuisine: 000000000000000000000000
+  textUang: {fileID: 0}
+  BeliNasi: {fileID: 0}
+  BeliIkan: {fileID: 0}
+  BeliTelor: {fileID: 0}
+  BeliSantan: {fileID: 0}
+  BeliSausKacang: {fileID: 0}
+  BeliTahuTempe: {fileID: 0}
+  BeliTomat: {fileID: 0}
+  BeliBawang: {fileID: 0}
+  StokRendang: {fileID: 0}
+  StokGadogado: {fileID: 0}
+  StokSoto: {fileID: 0}
+  FoodStock: 0
+  SatedScore: 0
+  disSatScore: 0
+  SatedScoreText: {fileID: 0}
+  disSatScoreText: {fileID: 0}
+  SelectMenu: 0
